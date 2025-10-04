@@ -92,7 +92,7 @@ for (let a of arr){
 }
 console.log(arr);*/
 
-const arr = [4,5,6,7,6,8,9];
+//const arr = [4,5,6,7,6,8,9];
 
 //const newArr=arr.map((x)=>x*2);
 //const newArr=arr.filter((x)=>x>6);
@@ -123,9 +123,84 @@ task3: after filter add all filtered element;
 //const idx=arr.findLastIndex(x=>x>6);
 //const idx=arr.indexOf(6);
 //const idx=arr.lastIndexOf(6);
-const idx=arr.includes(55);
+//const idx=arr.includes(55);
 
-console.log(idx);
+//console.log(idx);
 
+//const arr2=['d','a','c','b'];
+//arr2.sort();
+//const  arr3=arr2.toSorted();
+//arr2.sort((a,b)=>a-b);
+//arr2.sort((a,b)=> b-a);
+///console.log(arr2);
 
+//arr2.reverse();
+//const arr3=arr2.toReversed();
+//console.log(arr3);
+/*const arr2=[4,12,1,5,6];
+const arr3=[5,6,7,8,10,12];
+const arr=[...arr2,...arr3];
+console.log(arr);
 
+const cars=[
+    {type:"Volvo", year: 2020
+
+    },
+    {type:"marcedes",year:2022
+
+    },
+    {type:"bmw",year:2000
+
+    }
+]
+
+cars.sort((a,b)=>a.year-b.year);
+console.log(cars);
+
+const arr2=[4,12,1,5,6];
+const arr3=[5,6,7,8,10,12];
+
+const arr=[...arr2,...arr3];
+console.log(arr);
+
+const a=5;
+const b=6;
+const c=14;
+
+console.log(Math.PI);
+console.log(Math.round(8.4));
+console.log(Math.ceil(8.4));
+console.log(Math.floor(8.4));
+console.log(Math.trunc(8.4));
+console.log(Math.pow(8,2));
+console.log(Math.sqrt(64));
+console.log(Math.abs(-8.4));
+
+console.log(Math.max(a,b,c));
+
+console.log(Math.min(a,b,c));
+
+const arr=[4,5,0,2,3];
+
+console.log(Math.max(...arr));
+
+console.log(Math.min(...arr));
+
+let a=123;
+console.log(typeof a.toString());
+
+let  x=5.23456;
+
+console.log(x.toFixed(0));
+
+let x="5";
+console.log(typeof parseInt(x));
+console.log(Number.isInteger("10"));
+console.log(Number.isFinite(4/0));
+console.log(Number.isNaN(7/"abc"));*/
+
+//console.log(Math.random());
+//const rand=Math.floor(Math.random()*10); //0-9
+//const rand=Math.floor(Math.random()*12); //0-9
+const rand=Math.floor(Math.random()*10)+1; //0-9
+console.log(rand);
