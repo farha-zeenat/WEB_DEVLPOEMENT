@@ -197,10 +197,89 @@ let x="5";
 console.log(typeof parseInt(x));
 console.log(Number.isInteger("10"));
 console.log(Number.isFinite(4/0));
-console.log(Number.isNaN(7/"abc"));*/
+console.log(Number.isNaN(7/"abc"));
 
 //console.log(Math.random());
 //const rand=Math.floor(Math.random()*10); //0-9
 //const rand=Math.floor(Math.random()*12); //0-9
 const rand=Math.floor(Math.random()*10)+1; //0-9
-console.log(rand);
+console.log(rand);*/
+
+
+//const d=new Date();
+//const d=new Date("2021-05-15");
+//const d=new Date();
+//console.log(d.getFullYear());
+// month=["january","fabruary","march","april","may","june","july","august","september","october","novembar","december"];
+//console.log(month[d.getMonth()]d);
+//console.log(d.getDate());
+//const day=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+//console.log(day[d.getDay()]);
+//d.setMonth("5");
+//console.log(d.getMonth());
+
+
+//const str="   abcdefghijklmnopqrstuvwxyz   ";
+//console.log(str.length);
+//console.log(str.charAt(2));
+//console.log(str.charCodeAt(2));
+//console.log(str[3]);
+//console.log(str.at(-1));
+//console.log(str.toUpperCase());
+
+//const newstr=(str.trim());
+
+//const newstr=(str.trimStart());
+//const newstr=(str.trimEnd());
+
+//console.log(newstr.length);
+
+//let text="apple, banana, kiwi ";
+//let slicedPart=text.slice(7,10);
+//let slicedPart=text.substr(7,3);
+//console.log(slicedPart);
+//let result=text.repeat(3);
+//console.log(result);
+
+//let str="a,b,c,d,e";
+//const arr=str.split(',');
+//console.log(arr);
+//console.log(arr.join('*'));
+let text="apple, banana, kiwi ";
+ //et newText=text.replace("kiwi","guava")
+ //let newText=text.replaceAll("kiwi","guava",);
+ //let newText=text.replace(/kiwi/ig,"guava");
+ //console.log(newText);
+
+//console.log(indexof("kiwi"));
+ //let isExist=text.search(/kiwi/);
+ //let isExist=text.includes("sskiwi");
+ //console.log(isExist);
+ function add(...args){
+    let c=0;
+    //console.log(args.length);
+      c = args.reduce((sum,item) =>{
+        sum += item;
+        return sum;
+      },0);
+   // c=a+b;
+    return c;
+ }
+ let a=5;
+ let b=6;
+ let res = add(a,b,4,7,8);
+ //console.log("Addition of a="+a+" and b="+b+" is:", res);
+
+//console.log(`Addition of a=${a} and b=${b} is ${res}`); //string templete
+
+let num=6;
+let caseCheck=num%2;
+switch(caseCheck){
+    case 0:console.log("Even Number");
+    break;
+
+    case 1:console.log("Odd Number");
+    break;
+    default:console.log("Case not matched");
+
+}
